@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  droneformtotcoms:
+    image: ${DOCKER_REGISTRY}droneformtotcoms
+    build:
+      context: .
+      dockerfile: DroneFormToTCOMS\Dockerfile
